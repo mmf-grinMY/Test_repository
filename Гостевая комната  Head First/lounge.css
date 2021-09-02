@@ -1,0 +1,106 @@
+#elixirs {
+	border: thin solid #007e7e;
+	width: 300px;
+	padding: 0px, 20px;
+	margin: 0px, 20px;
+	text-align: center;
+	background: repeat-x url(images/cocktail.gif);
+	line-height: 1;
+	float: right;
+}
+	h1 {
+		border-bottom: 1px solid black;
+	}
+	p {
+	color: maroon;
+	}
+	body {
+		font-family: sans-serif;
+	}
+	/*em {
+		font-family: serif;
+	}*/
+	p.greentea {
+	color: green;
+	}
+	p.raspberry {
+	color: blue;
+	}
+	p.blueberry {
+	color: purple;
+	}
+	p.cranberry {
+	color: red;
+	}
+body {
+	font: small/1.6em Verdana, Halvetica, Arial, sans-serif;
+}
+
+h1,h2 {
+	color: #007e7e;
+}
+h1 {
+	font-size: 1,5em;
+}
+h2 {
+	font-size: 1,3em;
+}
+p#problem {
+	border-color:  black;
+border-style: solid;
+padding: 25px 25px 25px 105px;
+margin: 30px 330px 30px 30px;
+border-style:dashed/*solid - сплошная, double - удвоенная, groove - 
+углубленная, outset - выходящая вкладка, dotted - точечная, dashed - 
+пунктирная, inset - доюавленная вкладка, ridge - выступающая кромка*/;
+border: thin white;/*thin, medium, thick, *px*/
+border-radius: 30px 0px;
+color: #444;
+font-family:italic 1.9em Georgia, "Times New Roman", Times, serif;
+background:top left no-repeat  #a7cece url(images/background.gif);
+height: 300px;
+width: 200x;
+}
+#elixirs h3{
+	color: #d12c47;
+}
+#elixirs h2{
+	color: black;
+}
+#end {
+	font-size: 50%;
+	text-align: center;
+	line-height: normal;
+	margin-top: 30px;
+}
+.cd {
+	font-weight: italic;
+}
+.artist {
+	font-weight: bold;
+}
+a:link {
+	color: green
+}
+a:visited {
+	color: red;
+}
+a:hover {
+	color: yellow;
+}
+a:focus {
+	color:purple;
+}
+a:active {
+	color:white;
+}
+#elixirs a:link {
+	color: #007e7e;
+}
+#elixirs a:visited {
+	color: #333;
+}
+#elixirs a:hover {
+	background: #f88396;
+	color: #0d5353;
+}

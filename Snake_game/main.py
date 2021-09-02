@@ -144,7 +144,7 @@ class Game:
         while running:
             for event in pygame.event.get():
                 if event.type == KEYDOWN:
-                    if event.key == K_ESCAPE:
+                    if event.type == pygame.QUIT:
                         running = False
 
                     if event.key == K_RETURN:
